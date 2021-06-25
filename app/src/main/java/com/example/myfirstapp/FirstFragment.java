@@ -56,13 +56,6 @@ public class FirstFragment extends Fragment {
             }
         });
     }
-/*
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
-    }
-*/
     private void countMe(View view){
         // get the value of the text view
         String countString = showCountTextView.getText().toString();
